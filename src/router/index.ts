@@ -1,3 +1,4 @@
+// @ts-ignore
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 
 const routes: Array<RouteRecordRaw> = [

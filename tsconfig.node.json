@@ -2,7 +2,14 @@
   "compilerOptions": {
     "composite": true,
     "module": "esnext",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    //===========编译器ide提示。。。。
+    "baseUrl": "./",
+    "paths": {
+      "/@/*": ["./src/*"]
+    },
+    //===========编译器ide提示。。。。
   },
-  "include": ["vite.config.ts"]
+  "include": ["vite.config.ts"],
+
 }

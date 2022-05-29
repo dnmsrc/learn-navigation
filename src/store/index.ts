@@ -1,3 +1,4 @@
+// @ts-ignore
 import { createStore } from 'vuex'
 
 const defaultState = {
@@ -10,7 +11,6 @@ export default createStore({
         return defaultState
     },
     mutations: {
-
     },
     actions: {
 

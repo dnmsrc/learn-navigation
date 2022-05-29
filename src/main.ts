@@ -5,4 +5,8 @@ import router from '@/router/index'
 // @ts-ignore
 import store from '@/store/index'
 
-createApp(App).use(router).use(store).mount('#app')
+const app = createApp(App)
+
+app.use(router).use(store).mount('#app')
+
+
